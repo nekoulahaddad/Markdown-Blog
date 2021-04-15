@@ -1,0 +1,158 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+.footer{
+    background-color: #f8f9fa;
+}
+html {
+    position: relative;
+    min-height: 130%;
+}
+
+body {
+    margin: 0 0 100px; 
+    padding-bottom: 300px;
+}
+
+img{
+  width: 100%;
+  max-height: 500px;
+}
+
+.category{
+color: white;
+text-shadow: 0px 0px 0px #fff;
+background-color:#5bc0de;
+padding: 3px 5px 3px 5px; 
+}
+
+.card-image{
+    width: 100%;
+}
+
+
+.article-text{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #babecc;
+}
+
+.my-image{
+    width: 140px;
+    height: 140px;
+}
+
+.image_comment{
+    height: 64px;
+    width: 64px;
+}
+
+
+.time-comment{
+    padding-left: 72px;
+    font-size: 10px;
+}
+.Add-article-form{
+    width:100%;
+}
+
+.text-dark>p,.text-dark>div{
+    color:black !important;
+}
+
+.comment-section{
+    border-top: 1px solid #babecc;
+}
+
+.search-bar{
+    background-color: transparent;
+    text-decoration-color: blue;
+    border: 2px solid #5bc0de;
+box-shadow: inset 2px 2px 5px #fff, inset -5px -5px 10px #fff;
+}
+.search-bar::placeholder{
+    color:#5bc0de;
+}
+
+.loadmore-button{
+padding: 10px 80px 10px 80px !important;
+background-color:#5bc0de;
+}
+
+
+.comment-content{
+    width: 600px;
+}
+
+
+.comment-form {
+  display:flex;
+  flex-direction:row;
+  border:2px solid #5bc0de;
+  padding:2px;
+  border-radius: 320px;
+  width:100% !important; 
+}
+
+.comment-input {
+  flex-grow:2;
+  border:none;
+  box-shadow: none;
+  border-radius: 0px;
+  background-color: transparent;
+  text-shadow: none;
+}
+
+.comment-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.comment-button {
+  box-shadow: none;
+  outline:none;
+  border:none;
+  background:transparent;
+  color:black;
+}
+
+.comment-button:hover {
+  box-shadow:none;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+.comment-content{
+    width: 350px;
+}
+
+    }
+
+
+
+
+
+@media screen and (max-width: 479px) {
+.my-image{
+    height: 64px;
+    width: 64px;
+    margin-bottom: 10px;
+}
+
+.mobile-author{
+    text-align: center;
+}
+
+.comment-content{
+    width: 170px;
+}
+
+
+    }
+

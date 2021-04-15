@@ -1,0 +1,95 @@
+.halo{
+	margin-left: auto;
+	margin-right: 0;
+}
+
+
+
+.button {
+  text-align: center;
+  width: 100px;
+  background-color: #5bc0de;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #4d67c4;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.button:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #4d67c4;
+}
+.button:active {
+  box-shadow: inset 1px 1px 2px #4d67c4, inset -1px -1px 2px #fff;
+}
+
+
+
+.linky{
+	display: inline-block;
+}
+.bb{
+	width: 135px;
+}
+
+.cc{
+	width: 105px;
+}
+
+.login-b:hover{
+	text-decoration: none;
+	color:#5bc0de;
+}
+.login-b{
+	color:#5bc0de;
+}
+
+.mobile-b{
+	display: none;
+}
+
+.log-out{
+	width: 100px;
+	height: 40px;
+	padding: 0px;
+}
+
+
+@media screen and (max-width: 600px) {
+.bb,.cc{
+	width: 100%;
+}
+.sign-form{
+	display: none
+}
+
+.forms-sign{
+display:none;
+}
+.login-b{
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.button{
+	margin-left: 5px;
+	width: 70px;
+}
+
+.sign-text{
+display: none;
+}
+
+.log-out{
+	width: 100px;
+	height: 40px;
+	padding: 0px;
+}
+
+}
+
+
+
+
+
+

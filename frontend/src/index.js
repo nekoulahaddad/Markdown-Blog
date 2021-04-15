@@ -1,0 +1,26 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { StateProvider } from "./components/StateProvider";
+import reducer, { initialState } from "./components/Reducer";
+import TimeAgo from 'javascript-time-ago'
+ 
+import en from 'javascript-time-ago/locale/en'
+import ru from 'javascript-time-ago/locale/ru'
+TimeAgo.addDefaultLocale(en)
+TimeAgo.addLocale(ru)
+
+ReactDOM.render(
+  <React.StrictMode>
+  <StateProvider initialState={initialState} reducer={reducer}>
+    <App />
+   </StateProvider>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
